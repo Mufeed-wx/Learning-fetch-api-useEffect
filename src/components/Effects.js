@@ -11,7 +11,7 @@ const Effects = () => {
     }, [])
     return (
         <div>
-            <h1 className='bg-info text-white'>Fetch API</h1>
+            <h1 className='bg-info text-white'>FETCH API</h1>
             {posts.map((data) =>
                 <div key={data.id}>
                     <h1 className='bg-dark text-white'>{data.title}</h1>
